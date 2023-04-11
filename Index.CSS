@@ -1,13 +1,22 @@
+@import url(https://fonts.google.com/specimen/Kumbh+Sans);
 /* .M{
     height: 10000px;
     width: 20px;
 
 } */
+
+
+*{
+    font-family: "Kumbh", Sans !important;
+}
 .Rightnavbar{
 /* margin-right: -300px; */
 margin-left: 1100px;
 margin-top: -20px;
 
+}
+ul{
+list-style: none;
 }
 .R{
     height: 50px;
@@ -15,8 +24,8 @@ margin-top: -20px;
     margin-top: -20px;
 }
 .Big{
-    height: 400px;
-    width: 900px;
+    height: 500px;
+    width: 600px;
     border-radius: 40px;
 }
 
@@ -46,12 +55,13 @@ margin-top: -20px;
 }
 .Price{
     display: flex;
-    flex-direction: row;
-
+    gap:20px;
 }
 .Add{
     display: flex;
     flex-direction: row;
+    gap:20px;
+    align-items: center;
 
 }
 .F{
@@ -60,4 +70,49 @@ margin-top: -20px;
 width: 130px;
 border-radius: 20px;
 
+}
+.Button{
+    gap: 20px;
+    color: white;
+    background-color:hsl(26, 100%, 55%) ;
+    margin: 10px;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    padding: 0 auto;
+    text-align: center;
+    
+}
+.Button svg{
+    margin:0 10px;
+}
+.Numbers{
+    gap: 20px;
+    display: flex;
+    height: 40px;
+    width: 100px;
+    align-items: center;
+   
+}
+.Marked-price{
+    text-decoration: line-through;
+    color: darkgray;
+}
+.SellingP{
+
+    font-weight:900;
+}
+.Percent{
+    background-color: hsl(25, 100%, 94%);
+    color:hsl(26, 100%, 55%) ;
+    font-weight:900;
+    border-radius: 5px;
+    height: 20px;
+    width:35px;
+   text-align: center;
+
+}
+.Zero {
+    font-weight: 900;
 }
